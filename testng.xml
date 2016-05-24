@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+  <test name="sample test">
+    <classes>
+      <class name="com.store.qa.test.StoreQATest">
+         <methods>
+            <include name="testIphone4OrderAndValidateTotalPrice"/>
+            <include name="testMyAccountDetailsUpdateByReLogin"/>
+            <include name="testEmptyCartMessageByRemoveAllItems"/>
+       </methods>
+        </class>
+    </classes>
+  </test>
+</suite>
